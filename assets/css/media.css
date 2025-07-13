@@ -1,0 +1,122 @@
+@media screen and (orientation: portrait) {
+    .team {
+        width: 90vw;
+        object-fit: contain;
+    }
+
+    .TeamI {
+        aspect-ratio: 2/1;
+    }
+
+    .PostBG {
+        width: 90vw;
+        aspect-ratio: 2/1;
+        margin-bottom: 2vw;
+    }
+
+    .PartBG {
+        width: 90vw;
+        aspect-ratio: 2/1;
+        margin-bottom: 2vw;
+    }
+
+    .TTBT {
+        font-size: 4vw;
+    }
+
+    .lang {
+        padding: 1vw;
+        font-size: 3.5vw;
+        border-radius: 2vw;
+        margin: 1em;
+    }
+
+    .PE {
+        width: 16vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .PEM {
+        width: 13vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .scaller {
+        width: 90vw;
+    }
+
+    .RLCP {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .flag {
+        width: 4vw;
+    }
+
+    .linkh3 {
+        font-size: 5vw;
+    }
+
+    .linkpoint {
+        width: 5vw;
+    }
+
+    .slideshow-container .imgslide {
+        aspect-ratio: 2/1;
+        object-fit: contain;
+        height: 40vw;
+        margin-left: 2em;
+    }
+
+    .playerbox .prev {
+        font-size: 4em;
+        top: 20%;
+    }
+
+    .playerbox .next {
+        font-size: 4em;
+        top: 20%;
+    }
+
+    .tabcontent .tabwith {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .set .tab button {
+        padding: 0;
+    }
+
+    .header .progress-container {
+        height: 20px;
+    }
+
+    /* The progress bar (scroll indicator) */
+    .header .progress-bar {
+        height: 20px;
+    }
+
+    #upBtn {
+        scale: 1.5;
+    }
+
+    .ThemeSwitch {
+        scale: 1.5;
+        margin: 2rem 6rem 0 0;
+    }
+
+    .uptodown {
+        bottom: -50em;
+    }
+
+    .langdrop {
+        scale: 1.5;
+    }
+}

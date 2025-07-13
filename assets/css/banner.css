@@ -1,0 +1,110 @@
+.SMPTitel {
+    margin-top: -3vw;
+    width: 50vw;
+}
+
+.SMPTitel2{
+    width: 30vw;
+}
+
+.PR {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/3;
+    object-fit: contain;
+}
+
+.GSMP {
+    transition: 0.8s;
+    width: 16.5vw;
+}
+
+.GSMP:hover {
+    scale: 1.5;
+}
+
+.TabelHeadLeft {
+    margin-left: 35vw;
+    margin-right: 5vw;
+}
+
+.TabelHeadLeft2 {
+    margin-left: 15vw;
+    margin-right: 5vw;
+}
+
+.tabelbanner {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.Panel {
+    background-color: var(--BacCol);
+    transition: 0.8s;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+    padding: 0.5vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.PE {
+    width: 4vw;
+}
+
+.PSVG {
+    filter: var(--PanelColor);
+    transition: 0.8s;
+}
+
+.PSVGOFF {
+    filter: var(--PanelColor);
+    transition: 0.8s;
+}
+
+.PSVG:hover {
+    scale: 1.5;
+}
+
+.hoverShadow {
+    box-shadow: var(--shadowSVG);
+}
+
+.hoverBlock {
+    background-color: #dddddd75;
+}
+
+.PanelP {
+    justify-content: space-evenly;
+}
+
+.PanelNoLP {
+    justify-content: start;
+}
+
+.TextIcon {
+    color: var(--TC);
+    font-size: 4vw;
+    margin-top: -1.2vw;
+}
+
+.TextHover {
+    transition: 0.8s;
+}
+
+.TextHover:hover {
+    scale: 1.5;
+}
+
+.PostBG {
+    background: var(--PortGrad);
+    aspect-ratio: 1/1;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scaller {
+    width: 30vw;
+}

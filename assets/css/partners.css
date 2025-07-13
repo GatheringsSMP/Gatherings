@@ -1,0 +1,8 @@
+.PartBG {
+    background: var(--PortGrad);
+    aspect-ratio: 1/1;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

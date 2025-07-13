@@ -1,0 +1,63 @@
+.team {
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+}
+
+.TeamI {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.TeamP {
+    float: inline-end;
+}
+
+.TBB {
+    margin-bottom: 2vw;
+    padding: 2vw;
+    background-color: var(--BacCol);
+    box-shadow: var(--PanShad);
+    border-radius: 3em;
+    display: flex;
+}
+
+.TTB {
+    padding: 2vw;
+    background-color: var(--BacCol);
+    box-shadow: var(--PanShad);
+    border-radius: 3em;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.TTBT {
+    color: var(--TTSC);
+    text-shadow: var(--TTSCSM);
+}
+
+.PEM {
+    width: 3vw;
+}
+
+.TextIconM {
+    color: var(--TC);
+    font-size: 2vw;
+    margin-top: -0.5vw;
+}
+
+.ItemTabel1 {
+    order: 1;
+}
+
+.ItemTabel2 {
+    order: 2;
+}
+
+.ItemTabel3 {
+    order: 3;
+}

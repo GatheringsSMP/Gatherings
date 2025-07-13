@@ -1,0 +1,108 @@
+.playerbox {
+    margin: 2vw 5vw 2vw 5vw;
+    box-shadow: var(--PanShad);
+    border-radius: 3em;
+}
+
+.imgslide {
+    height: 20vw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+}
+
+.sliderpanel {
+    position: relative;
+    bottom: 0;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  height: auto;
+  position: relative;
+  margin: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.slideshow-container-new {
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--BaseText);
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.prev {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: var(--DBC);
+}
+
+/* Caption text */
+.textBlock {
+  padding: 8px 12px;
+  margin: 2vw;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 2em;
+  width: 2em;
+  margin: 0 2px 0.5vw 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--SCB);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,32 @@
+.Port {
+    width: 100vw;
+    object-fit: contain;
+    border-radius: 3em;
+}
+
+.PortI {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.PortBG {
+    background: var(--PortGrad);
+    aspect-ratio: 16/9;
+    border-radius: 3em;
+    box-shadow: var(--PanShad);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.WebPort {
+    aspect-ratio: 16/9;
+    border-radius: 3em;
+    object-fit: contain;
+    
+}
+
+.RLCP {
+    margin-left: 16vw;
+    margin-right: 16vw;
+}
