@@ -5,8 +5,8 @@ const langArr = {
     },
 
     "homelink" : {
-        "ru": '<a href="index.html#ru" style="width: 13vw;"><h3 class="linkh3">&#9775; Главная</h3></a>',
-        "en": '<a href="index.html#en" style="width: 13vw;"><h3 class="linkh3">&#9775; Home</h3></a>',
+        "ru": '<a href="index.html#ru" style="width: 13vw;"><h3 class="linkh3">&#10224; Главная</h3></a>',
+        "en": '<a href="index.html#en" style="width: 13vw;"><h3 class="linkh3">&#10224; Home</h3></a>',
     },
 
     "inflink" : {
@@ -20,7 +20,7 @@ const langArr = {
     },
 
     "playerslink" : {
-        "ru": '<a href="players.html#ru" style="width: 13vw;"><h3 class="linkh3">&#9884; Игроки</h3></a>',
-        "en": '<a href="players.html#en" style="width: 13vw;"><h3 class="linkh3">&#9884; Players</h3></a>',
+        "ru": '<a href="players.html#ru" style="width: 13vw;"><h3 class="linkh3">&#12304; Игроки &#12305;</h3></a>',
+        "en": '<a href="players.html#en" style="width: 13vw;"><h3 class="linkh3">&#12304; Players &#12305;</h3></a>',
     },
 }
