@@ -5,8 +5,8 @@ const langPlay = {
     },
 
     "asfan" : {
-        "ru": "Alex_Kristons - Асфан<br><br>- Контент мейкер, стример, ходячий сборник разных фактов и увлечений<br><br>- (Клюквы клюквенному богу)",
-        "en": "Alex_Kristons - Asfan<br><br>- Content maker, streamer, walking collection of various facts and hobbies<br><br>- (Cranberries to the cranberry god)",
+        "ru": "Alex_Kristons - Асфан<br><br>- Один из немногих выживших элитрианцев. Пилигрим, глагольствующий о клюквенном боге<br><br>- Контент мейкер, ходячий сборник разных фактов и увлечений<br><br>- (Клюквы клюквенному богу)",
+        "en": "Alex_Kristons - Asfan<br><br>- One of the few surviving Elytrian. A pilgrim who speaks of the cranberry god<br><br>- Content maker, walking collection of various facts and hobbies<br><br>- (Cranberries to the cranberry god)",
     },
 
     "mitani" : {
