@@ -20,7 +20,7 @@ const langPlay = {
     },
 
     "ronay" : {
-        "ru": '— Ronay_Anderon<br><br> – Рона́й — Клон Императора под номером 294, очнувшийся ото сна в криокапсуле на незнакомой ему планете. Является морским торговцем и открытым на сотрудничество человеком, но отделённым от своею "Океанической Империи", от чего иногда начинает шизить по этому поводу<br><br> — Мастер стратегий, любитель морской тематики, рептилий и в принципе знаток в биологии.<br> Знает ВЕСЬ лор "Вархамера 40000"',
+        "ru": '— Ronay_Anderon<br><br> – Рона́й — Клон Императора под номером 294, очнувшийся ото сна в криокапсуле на незнакомой ему планете. Является морским торговцем и открытым на сотрудничество человеком, но отделённым от своей "Океанической Империи", от чего иногда начинает шизить по этому поводу<br><br> — Мастер стратегий, любитель морской тематики, рептилий и в принципе знаток в биологии.<br> Знает ВЕСЬ лор "Вархамера 40000"',
         "en": '— Ronay_Anderon<br><br> – Ronay is the Emperor`s clone number 294, who woke up from sleep in a cryocapsule on an unfamiliar planet. He is a sea merchant and a person open to cooperation, but separated from his "Oceanic Empire", which is why he sometimes starts to go crazy about it<br><br> — Master of strategy, lover of marine themes, reptiles and in principle an expert in biology.<br> Knows ALL the lore of "Warhamer 40000"',
     },
 
