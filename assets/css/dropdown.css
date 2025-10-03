@@ -20,17 +20,17 @@
   
 /* Ссылки внутри выпадающего списка */
 .dropdown-content a {
-    color: var(--BaseColor);
+    color: var(--TextColor);
     padding: 12px 16px;
     text-decoration: none;
     display:inline-table;
     border-radius: 0.7em;
     animation: DropDownAnim normal .5s;
-    border: 0.2rem groove var(--BaseColor);
+    border: 0.2rem groove var(--TextColor);
 }
 
 .dropdown-content h1 {
-    color: var(--BaseColor);
+    color: var(--TextColor);
     padding: 12px 16px;
     border-radius: 0.7em;
     display: inherit;

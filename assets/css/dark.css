@@ -1,14 +1,13 @@
 body {
     background-color: var(--Background);
-    transition: 0.8s;
 }
 
 .BackGradient {
     background: linear-gradient(var(--SecondColor), var(--BaseColor));
-    max-height: 40vw;
-    width: 100%;
-    aspect-ratio: 16/9;
-    border-radius: 0 0 3em 3em;
+    border-radius: 0 0 30em 0;
+    padding: 1vw;
+    width: 20vw;
+    height: 20vw;
     box-shadow: var(--BlockShadow);
 }
 
@@ -20,11 +19,11 @@ body {
     --Background: rgb(255, 255, 255);
     --BlockShadow: 0 0 2em rgb(83, 83, 83);
     --SVGcolor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
-    --DropDown: rgb(255, 255, 255, 0.5);
-    --DropDownHover: rgb(192, 192, 192);
+    --DropDown: rgba(255, 255, 255, 0.5);
+    --DropDownHover: rgba(121, 121, 121, 0.5);
     --TextColor: rgb(58, 58, 58);
     --BackgroundGradient: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 192));
-    --RadioChecked: #885a82;
+    --RadioChecked: #725a88;
     --BlockOpasity: rgba(0, 0, 0, 0.199);
 }
 
@@ -36,10 +35,10 @@ body {
     --Background: rgb(58, 58, 58);
     --BlockShadow: 0 0 2em rgb(27, 27, 27);
     --SVGcolor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(103%) contrast(103%);
-    --DropDown: rgb(58, 58, 58, 0.5);
-    --DropDownHover: rgb(218, 107, 225, 0.5);
+    --DropDown: rgba(58, 58, 58, 0.5);
+    --DropDownHover: rgba(162, 107, 225, 0.5);
     --TextColor: rgb(255, 255, 255);
     --BackgroundGradient: radial-gradient(rgb(160, 160, 160), rgb(56, 56, 56));
-    --RadioChecked: #885a82;
+    --RadioChecked: #725a88;
     --BlockOpasity: rgba(0, 0, 0, 0.418);
 }

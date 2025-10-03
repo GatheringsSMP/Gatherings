@@ -9,8 +9,7 @@
     }
 
     .PostBG {
-        width: 90vw;
-        aspect-ratio: 2/1;
+        aspect-ratio: 16/9;
         margin-bottom: 2vw;
     }
 
@@ -69,10 +68,11 @@
     }
 
     .slideshow-container .imgslide {
-        aspect-ratio: 2/1;
+        aspect-ratio: 16/9;
         object-fit: contain;
         height: 40vw;
-        margin-left: 2em;
+        margin-left: 6vw;
+        margin-bottom: 2vw;
     }
 
     .playerbox .prev {
@@ -118,5 +118,11 @@
 
     .langdrop {
         scale: 1.5;
+    }
+
+    .startpost {
+        left: 20%;
+        -webkit-transform: translate(-20%);
+        transform: translate(20%);
     }
 }

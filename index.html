@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./assets/css/partners.css">
         <link rel="stylesheet" href="./assets/css/media.css">
         <link rel="stylesheet" href="./assets/css/animation.css">
+        <link rel="stylesheet" href="./assets/css/slider.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     </head>
     <body>
@@ -25,38 +26,34 @@
         <div>
             <div>
                 <!--Banner start-->
+                <!--Switch start-->
+                <div style="float: right;" class="ThemeSwitch"> <!--Right align-->
+                    <ul class="row" style="font-size: 3rem;">
+                        <!--Text-->
+                        <li><p class="TTT lng-tswitch"></p></li>
+                        <li> <!--Switch-->
+                            <label class="switch">
+                                <input type="checkbox" id="chk" class="themeToggle">
+                                <span class="slider"></span>
+                            </label>
+                        </li>
+                    <ul>
+                </div>
+                <!--Switch end-->
+
                 <!--Banner gradiet-->
-                <div class="BackGradient"> 
-                    <!--Switch start-->
-                    <div style="float: right;" class="ThemeSwitch"> <!--Right align-->
-                        <ul class="row" style="font-size: 3rem;">
-                            <!--Text-->
-                            <li><p class="TTT lng-tswitch"></p></li>
-                            <li> <!--Switch-->
-                                <label class="switch">
-                                    <input type="checkbox" id="chk" class="themeToggle">
-                                    <span class="slider"></span>
-                                </label>
-                            </li>
-                        <ul>
-                    </div>
-                    <!--Switch end-->
-                    
+                <div>
                     <!--Deco start-->
-                    <div style="padding-top: 15vw;">
-                        <ul class="row">
-                            <li class="tabelbanner">
-                                <div class="SMPTitel">
-                                    <img src="./assets/image/GSMP_titel.webp" class="img_16_9">
-                                </div>
-                            </li>
-                            <li class="TabelHeadLeft2">
-                                <div class="GSMP">
-                                    <img src="./assets/image/gsmp.webp" class="img_1_1">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="row">
+                        <li class="BackGradient">
+                            <div class="GSMP">
+                                <img src="./assets/image/gsmp.webp" class="img_1_1">
+                            </div>
+                        </li>
+                        <li class="startpost">
+                            <div class="lng-post1"></div>
+                        </li>
+                    </ul>
                     <!--Deco end-->
                 </div>
                 <!--Banner end-->
@@ -74,7 +71,6 @@
 
                                         <h1 class="lng-homelink"></h1>
                                         <h1 class="lng-playerslink"></h1>
-                                        <h1 class="lng-inflink"></h1>
                                         <h1 class="lng-partlink"></h1>
 
                                       </div>
@@ -104,26 +100,71 @@
                 </div>
                 <!--Panel end-->
 
-                <!--Posts start-->
-                <div>
-                    <div class="RLC" style="margin-top: 3vw;">
+                <!--Start sider-->
+                <!-- Slideshow container -->
+                <div class="playerbox">
+                    <div class="slideshow-container">
 
-                        <!--Post start-->
-                        <ul class="TBB row">
+                    <!--Text start-->
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
                             <li>
-                                <div class="PostBG scaller">
-                                    <img src="./assets/image/gsmp.webp" class="TeamI team">
-                                </div>
+                                <img src="assets/image/Minecraft.svg" class="imgslide PostBG" alt="version">
                             </li>
-                            <li class="TTB">
-                                <div class="lng-post1"></div>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-minver"></h2></div>
                             </li>
                         </ul>
-                        <!--Post end-->
+                    </div>
 
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/ely.webp" class="imgslide PostBG" alt="skin system">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-skin"></h2></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/SpigotMC.webp" class="imgslide PostBG" alt="core">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-spigot"></h2></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <ul class="row paddingimage">
+                            <li>
+                                <img src="assets/image/NeoForge.webp" class="imgslide PostBG" alt="mods">
+                            </li>
+                            <li>
+                                <div class="textBlock box"><h2 class="TTBT lng-mods"></h2></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
                     </div>
                 </div>
-                <!--Posts end-->
+                <!--End sider-->
 
                 <div>
                     
@@ -136,6 +177,7 @@
         <script src="./assets/js/languages/indlanguage.js"></script>
         <script src="./assets/js/languages/alllanguage.js"></script>
         <script src="./assets/js/languages/script/indlang.js"></script>
+        <script src="./assets/js/slider.js"></script>
         <script src="./assets/js/up.js"></script>
         <script src="./assets/js/theme.js"></script>
         <script src="./assets/js/memory.js"></script>

@@ -1,10 +1,6 @@
 .SMPTitel {
-    margin-top: -3vw;
-    width: 50vw;
-}
-
-.SMPTitel2{
-    width: 30vw;
+    margin: -3vw 2vw 0 2vw;
+    width: 40vw;
 }
 
 .PR {
@@ -15,32 +11,15 @@
 }
 
 .GSMP {
-    transition: 0.8s;
-    width: 16.5vw;
+    width: 13vw;
 }
 
 .GSMP:hover {
-    scale: 1.5;
-}
-
-.TabelHeadLeft {
-    margin-left: 35vw;
-    margin-right: 5vw;
-}
-
-.TabelHeadLeft2 {
-    margin-left: 15vw;
-    margin-right: 5vw;
-}
-
-.tabelbanner {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    filter: drop-shadow(0 0 1em black);
 }
 
 .Panel {
     background-color: var(--Background);
-    transition: 0.8s;
     border-radius: 3em;
     box-shadow: var(--BlockShadow);
     padding: 0.5vw;

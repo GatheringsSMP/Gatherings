@@ -2,10 +2,17 @@
     padding: 0;
     margin: 0;
     font-family: 'Minecraft Rus';
+    transition: 0.8s;
 }
 
 a {
     text-decoration: none;
+}
+
+a.text:active,
+a.text:hover,
+a.text {
+  color: var(--RadioChecked);
 }
 
 h1 {
@@ -80,6 +87,7 @@ li {
 .column {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .switch {
@@ -191,4 +199,9 @@ option {
 .DivColumn img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+.box {
+    border-radius: 3em;
+    box-shadow: var(--BlockShadow);
 }
