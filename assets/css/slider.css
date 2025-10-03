@@ -1,6 +1,6 @@
 .playerbox {
     margin: 2vw 5vw 2vw 5vw;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
     border-radius: 3em;
 }
 
@@ -9,7 +9,7 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
 }
 
 .sliderpanel {
@@ -48,7 +48,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: var(--BaseText);
+  color: var(--TextColor);
   font-weight: bold;
   font-size: 1.5em;
   transition: 0.6s ease;
@@ -67,7 +67,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: var(--DBC);
+  background-color: var(--BlockOpasity);
 }
 
 /* Caption text */
@@ -89,7 +89,7 @@
 }
 
 .active, .dot:hover {
-  background-color: var(--SCB);
+  background-color: var(--RadioChecked);
 }
 
 /* Fading animation */

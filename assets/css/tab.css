@@ -18,8 +18,8 @@
     cursor: pointer;
     transition: 0.3s;
     padding: 1vw;
-    background-color: var(--BacCol);
-    box-shadow: var(--PanShad);
+    background-color: var(--Background);
+    box-shadow: var(--BlockShadow);
     border-radius: 1em;
     margin: 2em;
 }

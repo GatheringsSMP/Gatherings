@@ -2,7 +2,7 @@
     width: 30vw;
     object-fit: cover;
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
 }
 
 .TeamI {
@@ -18,16 +18,16 @@
 .TBB {
     margin-bottom: 2vw;
     padding: 2vw;
-    background-color: var(--BacCol);
-    box-shadow: var(--PanShad);
+    background-color: var(--Background);
+    box-shadow: var(--BlockShadow);
     border-radius: 3em;
     display: flex;
 }
 
 .TTB {
     padding: 2vw;
-    background-color: var(--BacCol);
-    box-shadow: var(--PanShad);
+    background-color: var(--Background);
+    box-shadow: var(--BlockShadow);
     border-radius: 3em;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
@@ -36,8 +36,8 @@
 }
 
 .TTBT {
-    color: var(--TTSC);
-    text-shadow: var(--TTSCSM);
+    color: var(--BaseColor);
+    text-shadow: var(--BaseShadow);
 }
 
 .PEM {
@@ -45,7 +45,7 @@
 }
 
 .TextIconM {
-    color: var(--TC);
+    color: var(--TextColor);
     font-size: 2vw;
     margin-top: -0.5vw;
 }

@@ -39,10 +39,10 @@
 }
 
 .Panel {
-    background-color: var(--BacCol);
+    background-color: var(--Background);
     transition: 0.8s;
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
     padding: 0.5vw;
     margin-left: 4vw;
     margin-right: 4vw;
@@ -53,21 +53,17 @@
 }
 
 .PSVG {
-    filter: var(--PanelColor);
+    filter: var(--SVGcolor);
     transition: 0.8s;
 }
 
 .PSVGOFF {
-    filter: var(--PanelColor);
+    filter: var(--SVGcolor);
     transition: 0.8s;
 }
 
 .PSVG:hover {
     scale: 1.5;
-}
-
-.hoverShadow {
-    box-shadow: var(--shadowSVG);
 }
 
 .hoverBlock {
@@ -83,7 +79,7 @@
 }
 
 .TextIcon {
-    color: var(--TC);
+    color: var(--TextColor);
     font-size: 4vw;
     margin-top: -1.2vw;
 }
@@ -97,10 +93,10 @@
 }
 
 .PostBG {
-    background: var(--PortGrad);
+    background: var(--BackgroundGradient);
     aspect-ratio: 1/1;
     border-radius: 3em;
-    box-shadow: var(--PanShad);
+    box-shadow: var(--BlockShadow);
     background-repeat: no-repeat;
     background-size: contain;
 }

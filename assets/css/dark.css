@@ -1,74 +1,45 @@
 body {
-    background-color: var(--BacCol);
+    background-color: var(--Background);
     transition: 0.8s;
 }
 
 .BackGradient {
-    background: linear-gradient(rgb(98, 31, 160), rgb(138, 43, 226));
+    background: linear-gradient(var(--SecondColor), var(--BaseColor));
     max-height: 40vw;
     width: 100%;
     aspect-ratio: 16/9;
     border-radius: 0 0 3em 3em;
-    box-shadow: var(--BacBSGra);
+    box-shadow: var(--BlockShadow);
 }
 
 :root {
-    --TCO: rgb(0, 88, 189);
-    --TCOS: 0 10px 10px rgb(83, 83, 83);
-    --TCS: rgb(138, 43, 226);
-    --TCSS: 0 10px 10px rgb(83, 83, 83);
-    --BC: rgb(192, 192, 192);
-    --BCS: 0 -15px 10px rgb(192, 192, 192);
-    --BacCol: rgb(255, 255, 255);
-    --PanShad: 0 0 2em rgb(83, 83, 83);
-    --BacBSGra: 0 1em 1em 0 rgb(83, 83, 83);
-    --TTSC: rgb(76, 147, 228);
-    --TTSCS: 0 10px 10px rgb(83, 83, 83);
-    --TTSCSM: 0 0 0.4vw rgb(83, 83, 83);
-    --PanelColor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
-    --DDCC: rgb(255, 255, 255, 0.5);
-    --DDCCH: rgb(192, 192, 192);
-    --Shadow: 0 0 1em 1em rgb(192, 192, 192, 0.5);
-    --TC: rgb(58, 58, 58);
-    --PortGrad: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 192));
-    --BaseText: black;
-    --WT: rgb(255, 255, 255);
-    --PortGrad: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 192));
-    --HSB: rgb(27, 115, 214);
-    --HSBS: 0 0 10px rgb(48, 130, 224);
-    --SOB: rgb(76, 147, 228);
-    --BaseText: black;
-    --SCB: #5a7988;
-    --DBC: rgba(0, 0, 0, 0.199);
-    --shadowSVG: 0 10px 10px;
+    --BaseColor: rgb(138, 43, 226);
+    --SecondColor: rgb(98, 31, 160);
+    --BaseShadow: 0 0 10px rgb(138, 43, 226);
+    --SecondShadow: 0 10px 10px rgb(138, 43, 226);
+    --Background: rgb(255, 255, 255);
+    --BlockShadow: 0 0 2em rgb(83, 83, 83);
+    --SVGcolor: brightness(0) saturate(100%) invert(16%) sepia(12%) saturate(0%) hue-rotate(101deg) brightness(95%) contrast(93%);
+    --DropDown: rgb(255, 255, 255, 0.5);
+    --DropDownHover: rgb(192, 192, 192);
+    --TextColor: rgb(58, 58, 58);
+    --BackgroundGradient: radial-gradient(rgb(255, 255, 255), rgb(192, 192, 192));
+    --RadioChecked: #885a82;
+    --BlockOpasity: rgba(0, 0, 0, 0.199);
 }
+
 :root[t-theme='dark'] {
-    --TCO: rgb(255, 108, 108);
-    --TCOS: 0 10px 10px rgb(197, 35, 35);
-    --TCS: rgb(138, 43, 226);
-    --TCSS: 0 10px 10px rgb(106, 34, 173);
-    --BC: rgb(46, 46, 46);
-    --BCS: 0 -15px 10px rgb(46, 46, 46);
-    --BacCol: rgb(58, 58, 58);
-    --PanShad: 0 0 2em rgb(27, 27, 27);
-    --BacBSGra: 0 1em 1em 0 rgb(27, 27, 27);
-    --TTSC: rgb(255, 108, 108);
-    --TTSCS: 0 10px 10px rgb(197, 35, 35);
-    --TTSCSM: 0 0 1vw rgb(197, 35, 35);
-    --PanelColor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(103%) contrast(103%);
-    --DDCC: rgb(58, 58, 58, 0.5);
-    --DDCCH: rgb(46, 46, 46);
-    --Shadow: 0 0 1em 1em rgb(46, 46, 46, 0.5);
-    --TC: rgb(255, 255, 255);
-    --PortGrad: radial-gradient(rgb(160, 160, 160), rgb(56, 56, 56));
-    --BaseText: white;
-    --WT: rgb(46, 46, 46);
-    --PortGrad: radial-gradient(rgb(160, 160, 160), rgb(56, 56, 56));
-    --HSB: rgb(253, 56, 56);
-    --HSBS: 0 0 10px rgb(197, 35, 35);
-    --SOB: rgb(255, 108, 108);
-    --BaseText: white;
-    --SCB: #7b5a88;
-    --DBC: rgba(0, 0, 0, 0.418);
-    --shadowSVG: 0 0 10px;
+    --BaseColor: rgb(138, 43, 226);
+    --SecondColor: rgb(98, 31, 160);
+    --BaseShadow: 0 0 10px rgb(138, 43, 226);
+    --SecondShadow: 0 10px 10px rgb(138, 43, 226);
+    --Background: rgb(58, 58, 58);
+    --BlockShadow: 0 0 2em rgb(27, 27, 27);
+    --SVGcolor: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(273deg) brightness(103%) contrast(103%);
+    --DropDown: rgb(58, 58, 58, 0.5);
+    --DropDownHover: rgb(218, 107, 225, 0.5);
+    --TextColor: rgb(255, 255, 255);
+    --BackgroundGradient: radial-gradient(rgb(160, 160, 160), rgb(56, 56, 56));
+    --RadioChecked: #885a82;
+    --BlockOpasity: rgba(0, 0, 0, 0.418);
 }

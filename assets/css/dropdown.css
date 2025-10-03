@@ -8,12 +8,11 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--DDCC);
-    box-shadow: var(--Shadow);
+    background-color: var(--DropDown);
     z-index: 2;
     border-radius: 2em;
     backdrop-filter: blur(5px);
-    border: 0.3rem solid var(--TCO);
+    border: 0.3rem solid var(--BaseColor);
     animation: DropDownAnim2 normal 1s;
     margin-left: -2rem;
     transition: 0.4s;
@@ -21,17 +20,17 @@
   
 /* Ссылки внутри выпадающего списка */
 .dropdown-content a {
-    color: var(--TC);
+    color: var(--BaseColor);
     padding: 12px 16px;
     text-decoration: none;
     display:inline-table;
     border-radius: 0.7em;
     animation: DropDownAnim normal .5s;
-    border: 0.2rem groove var(--TC);
+    border: 0.2rem groove var(--BaseColor);
 }
 
 .dropdown-content h1 {
-    color: var(--TC);
+    color: var(--BaseColor);
     padding: 12px 16px;
     border-radius: 0.7em;
     display: inherit;
@@ -43,17 +42,16 @@
 }
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {background-color: var(--DDCCH);}
+.dropdown-content a:hover {background-color: var(--DropDownHover);}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block; box-shadow: var(--HSBS)}
+.dropdown:hover .dropdown-content {display: block; box-shadow: var(--BlockShadow)}
 
 .change-lang {
-    background-color: var(--DDCC);
-    box-shadow: var(--Shadow);
+    background-color: var(--DropDown);
     border-radius: 0.9em;
     backdrop-filter: blur(5px);
-    color: var(--TC);
+    color: var(--TextColor);
     font-size: 2em;
     border: 0;
     padding: 12px 16px;
