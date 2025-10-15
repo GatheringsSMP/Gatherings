@@ -12,7 +12,8 @@ a {
 a.text:active,
 a.text:hover,
 a.text {
-  color: var(--RadioChecked);
+  color: var(--BaseColor);
+  text-decoration: underline;
 }
 
 h1 {

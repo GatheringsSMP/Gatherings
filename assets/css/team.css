@@ -59,14 +59,6 @@
     margin-top: -0.5vw;
 }
 
-.ItemTabel1 {
-    order: 1;
-}
-
-.ItemTabel2 {
-    order: 2;
-}
-
-.ItemTabel3 {
-    order: 3;
+.infolnk {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(85%) saturate(7220%) hue-rotate(270deg) brightness(94%) contrast(89%);
 }

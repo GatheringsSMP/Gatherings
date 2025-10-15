@@ -22,8 +22,8 @@ function changeLanguage() {
         document.querySelector('.lng-' + key).innerHTML = langArr[key][hash];
     }
 
-    for (let key in langPart){
-        document.querySelector('.lng-' + key).innerHTML = langPart[key][hash];
+    for (let key in langlink){
+        document.querySelector('.lng-' + key).innerHTML = langlink[key][hash];
     }
 }
 

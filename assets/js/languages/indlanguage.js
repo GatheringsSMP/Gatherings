@@ -1,7 +1,12 @@
 const langInd = {
     "post1" : {
-        "ru": '<h1 class="TTBT">Привет!</h1><br><br><h2 class="TTBT"> - Ты попал на официальный сайт Gatherings SMP</h2><br><br><h2 class="TTBT"> - Тут ты можешь узнать инфорацию об игроках нашего сервера, узнать наше ядро или версию и многое другое!</h2>',
-        "en": '<h1 class="TTBT">Hello!</h1><br><br><h2 class="TTBT"> - You have reached the official Gatherings SMP website</h2><br><br><h2 class="TTBT"> - Here you can find out information about the players on our server, find out our core or version, and much more!</h2>',
+        "ru": 'Привет!<br><br> - Ты попал на официальный сайт Gatherings SMP<br><br> - Тут ты можешь узнать инфорацию об игроках нашего сервера, узнать наше ядро или версию и многое другое!',
+        "en": 'Hello!<br><br> - You have reached the official Gatherings SMP website<br><br> - Here you can find out information about the players on our server, find out our core or version, and much more!',
+    },
+
+    "post2" : {
+        "ru": 'Аддон для мода <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> Мы используем аддон, который сами сделали для наших персонажей, но так же там изменены некоторые основные рассы, а так же присуствует кастомная текстура элитр для элитрианцев',
+        "en": 'Addon for mod <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> We use an addon that we made ourselves for our characters, but it also changes some of the main races, and there is also a custom texture for the Elytras for the Elytrian',
     },
     
     "minver" : {
@@ -10,8 +15,8 @@ const langInd = {
     },
 
     "skin" : {
-        "ru": 'Система скинов<br><br> Мы используем официальные скины, а так же скины <a href="https://ely.by" class="text">Ely.by</a>',
-        "en": 'Skins system<br><br> We use official skins, as well as skins <a href="https://ely.by" class="text">Ely.by</a>',
+        "ru": 'Система скинов<br><br> Мы используем официальные скины, а так же скины <a href="https://ely.by" class="text">Ely.by</a><br><br> Используем мы данную систему, потому, что она нам кажется наиболее удобной и стабильной',
+        "en": 'Skins system<br><br> We use official skins, as well as skins <a href="https://ely.by" class="text">Ely.by</a><br><br> We use this system because we find it to be the most convenient and stable',
     },
 
     "spigot" : {
