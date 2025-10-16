@@ -241,10 +241,6 @@ table {
     padding: .2em;
 }
 
-.wordbreak {
-    word-break: break-all;
-}
-
 th, td {
     padding: 1em;
 }
