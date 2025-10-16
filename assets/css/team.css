@@ -62,3 +62,7 @@
 .infolnk {
     filter: brightness(0) saturate(100%) invert(26%) sepia(85%) saturate(7220%) hue-rotate(270deg) brightness(94%) contrast(89%);
 }
+
+.teamtitle {
+    text-align: center;
+}

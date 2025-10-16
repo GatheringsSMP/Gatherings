@@ -206,3 +206,57 @@ option {
     border-radius: 3em;
     box-shadow: var(--BlockShadow);
 }
+
+.box2 {
+    border-radius: 3em;
+    box-shadow: var(--BlockShadow);
+    margin: 2vw 5vw 2vw 5vw;
+    padding: 1vw;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+}
+
+.gallery img {
+    max-width: 25em;
+    background: var(--BackgroundGradient);
+    box-shadow: var(--BaseShadow);
+    border-radius: 3em;
+    border: 1px solid;
+    border-color: var(--BaseColor);
+}
+
+table {
+    border-radius: 3em;
+    border: 1px solid;
+    border-collapse: separate;
+    border-spacing: 1em;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .2em;
+}
+
+.wordbreak {
+    word-break: break-all;
+}
+
+th, td {
+    padding: 1em;
+}
+
+tr {
+    box-shadow: var(--BaseShadow);
+    border-radius: 3em;
+    text-align: center;
+    border: 1px solid;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
