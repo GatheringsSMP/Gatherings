@@ -215,12 +215,13 @@ option {
 }
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 25em));
+    grid-gap: 2em;
+    align-items: center;
 }
 
 .gallery img {
-    max-width: 25em;
+    max-width: 100%;
     background: var(--BackgroundGradient);
     box-shadow: var(--BaseShadow);
     border-radius: 3em;
