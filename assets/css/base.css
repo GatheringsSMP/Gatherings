@@ -218,6 +218,7 @@ option {
     grid-template-columns: repeat(auto-fill, minmax(200px, 25em));
     grid-gap: 2em;
     align-items: center;
+    justify-content: center;
 }
 
 .gallery img {
