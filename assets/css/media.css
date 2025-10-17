@@ -126,4 +126,19 @@
         transform: translate(20%);
     }
 
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
