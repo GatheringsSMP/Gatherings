@@ -5,8 +5,8 @@ const langInd = {
     },
 
     "post2" : {
-        "ru": 'Аддон для мода <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> Мы используем аддон, который сами сделали для наших персонажей, но так же там изменены некоторые основные рассы, а так же присуствует кастомная текстура элитр для элитрианцев',
-        "en": 'Addon for mod <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> We use an addon that we made ourselves for our characters, but it also changes some of the main races, and there is also a custom texture for the Elytras for the Elytrian',
+        "ru": 'Аддон для мода <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> Мы используем аддон, который сами сделали для наших персонажей, но так же там изменены некоторые основные рассы, а так же присуствует кастомная текстура элитр для элитрианцев<br><br><a href="https://modrinth.com/datapack/telona-origin-addon" class="text">Ссылка на аддон</a>',
+        "en": 'Addon for mod <a href="https://modrinth.com/mod/origins" class="text">Origins</a><br><br> We use an addon that we made ourselves for our characters, but it also changes some of the main races, and there is also a custom texture for the Elytras for the Elytrian<br><br><a href="https://modrinth.com/datapack/telona-origin-addon" class="text">Link to addon</a>',
     },
     
     "minver" : {
