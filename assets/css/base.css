@@ -73,7 +73,7 @@ html {
     margin-top: 0.6rem;
     color: var(--BaseColor);
     text-shadow: var(--BaseShadow);
-    font-size: 0.6em;
+    font-size: xx-large;
 }
 
 li {
@@ -213,6 +213,7 @@ option {
     margin: 2vw 5vw 2vw 5vw;
     padding: 1vw;
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 25em));
@@ -222,6 +223,23 @@ option {
 }
 
 .gallery img {
+    max-width: 100%;
+    background: var(--BackgroundGradient);
+    box-shadow: var(--BaseShadow);
+    border-radius: 3em;
+    border: 1px solid;
+    border-color: var(--BaseColor);
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 25em));
+    grid-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery2 img {
     max-width: 100%;
     background: var(--BackgroundGradient);
     box-shadow: var(--BaseShadow);

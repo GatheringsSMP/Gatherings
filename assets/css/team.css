@@ -38,6 +38,7 @@
 .TTBT {
     color: var(--BaseColor);
     text-shadow: var(--BaseShadow);
+    font-size: x-large;
 }
 
 .startpost {
